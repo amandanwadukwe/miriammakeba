@@ -1,9 +1,10 @@
 body{
     margin:0px;
     padding:0px;
-    border-box:box-sizing;
-    background-color:#fff;
+    box-sizing: border-box;
+    background-color:#ffffff;
     display:flex;
+    flex-direction: column;
     justify-content:center;
     text-align:center;
   }
