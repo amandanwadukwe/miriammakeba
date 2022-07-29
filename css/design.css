@@ -1,6 +1,6 @@
 :root {
-    --primary: #317db2;
-    --secondary: #bdee5f;
+    --primary: #ad2f2f;
+    --secondary: #d89548;
   }
   .theme{
       width:50px;
@@ -31,7 +31,7 @@
     width:465px;
     border-radius:50%;
     border:10px solid black;
-    background:#317db2;
+    background:var(--primary);
     position:absolute;
     top:90.5px;
     left:50px;
@@ -561,7 +561,7 @@
     height:295px;
     width:295px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:185px;
     left:145px;
@@ -591,7 +591,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:212px;
     left:170px;
@@ -616,7 +616,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:224px;
     left:103px;
@@ -626,7 +626,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:160px;
     left:216px;
@@ -636,7 +636,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:90px;
     left:222px;
@@ -646,7 +646,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:30px;
     left:185px;
@@ -656,7 +656,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:5px;
     left:120px;
@@ -666,7 +666,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:24px;
     left:54px;
@@ -676,7 +676,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:80px;
     left:12px;
@@ -686,7 +686,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:150px;
     left:11px;
@@ -696,7 +696,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:200px;
     left:45px;
@@ -706,7 +706,7 @@
     height:190px;
     width:190px;
     border-radius:50%;
-    background:#317db2;
+    background:var(--primary);
     position:absolute;
     top:239px;
     left:199px;
@@ -716,7 +716,7 @@
     height:160px;
     width:160px;
     border-radius:50%;
-    background:#317db2;
+    background:var(--primary);
     position:absolute;
     top:253px;
     left:213px;
@@ -726,7 +726,7 @@
     height:110px;
     width:110px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     border:5px solid black;
     position:absolute;
     top:273px;
@@ -737,7 +737,7 @@
     height:40px;
     width:40px;
     border-radius:50%;
-    background:#317db2;
+    background:var(--primary);
     border:15px solid black;
     position:absolute;
     top:298px;
@@ -780,7 +780,7 @@
     width:465px;
     border-radius:50%;
     border:10px solid black;
-    background:#317db2;
+    background:var(--primary);
     position:absolute;
     top:90.5px;
     left:50px;
@@ -1310,7 +1310,7 @@
     height:295px;
     width:295px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:185px;
     left:145px;
@@ -1340,7 +1340,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:212px;
     left:170px;
@@ -1366,7 +1366,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:224px;
     left:103px;
@@ -1376,7 +1376,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:160px;
     left:216px;
@@ -1386,7 +1386,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:90px;
     left:222px;
@@ -1396,7 +1396,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:30px;
     left:185px;
@@ -1406,7 +1406,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:5px;
     left:120px;
@@ -1416,7 +1416,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:24px;
     left:54px;
@@ -1426,7 +1426,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:80px;
     left:12px;
@@ -1436,7 +1436,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:150px;
     left:11px;
@@ -1446,7 +1446,7 @@
     height:20px;
     width:20px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     position:absolute;
     top:200px;
     left:45px;
@@ -1456,7 +1456,7 @@
     height:190px;
     width:190px;
     border-radius:50%;
-    background:#317db2;
+    background:var(--primary);
     position:absolute;
     top:239px;
     left:199px;
@@ -1466,7 +1466,7 @@
     height:160px;
     width:160px;
     border-radius:50%;
-    background:#317db2;
+    background:var(--primary);
     position:absolute;
     top:253px;
     left:213px;
@@ -1476,7 +1476,7 @@
     height:110px;
     width:110px;
     border-radius:50%;
-    background:#bdee5f;
+    background:var(--secondary);
     border:5px solid black;
     position:absolute;
     top:273px;
@@ -1487,7 +1487,7 @@
     height:40px;
     width:40px;
     border-radius:50%;
-    background:#317db2;
+    background:var(--primary);
     border:15px solid black;
     position:absolute;
     top:298px;
@@ -1519,8 +1519,8 @@
     .functional-design{
         transform:scale(0.5);
         position:fixed;
-        top:0;
-        left:80vw;
+        top:-166px;
+        left:60vw;
     }
 }
 @media(min-width:768px){
