@@ -52,11 +52,11 @@ h2{
   transform: rotate(45eg);
 }
 .tribute-info{
-    width: 70vw;
+    width: 60vw;
     margin: 3rem auto;
 }
 .gallery{
-  width:90vw;
+  width:70vw;
   margin:auto;
   display:flex;
   flex-wrap: wrap;
@@ -79,24 +79,47 @@ h2{
   width:90vw;
   margin:auto;
 }
+.more ul{
+  width:60vw;
+  margin:0 auto;
+}
+ .more h2{
+  font-size:2.2rem;
+ }
+.more a{
+    line-height: 2rem;
+}
+.more a:hover{
+  color:#ad2f2f;
+}
+
 footer{
   width: 90vw;
+  height:40vh;
     margin: auto;
     margin-top:5rem;
+    padding-left:4rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+}
+.about-developer{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .about-developer ul{
   display:flex;
+   height:50px;
 }
+
 .about-developer ul li a, .socials li a{
   font-size:2rem;
   margin-left:1rem;
   color:#ad2f2f;
 }
-.socials li a:hover{
+.about-developer ul li a:hover, .socials li a:hover{
   font-size:2.5rem;
   transition: font-size .2s linear;
 }
@@ -127,7 +150,7 @@ footer{
     font-size:5vw;
   }
   .quotes{
-    width:55%;
+    width:60%;
     font-size: 2vw;
   }
   .svg {
@@ -144,9 +167,14 @@ footer{
 .more{
   width:70vw;
 }
+.more h2{
+  font-size:3.6rem;
+}
 footer{
+  height:20vh;
   flex-direction:row;
   justify-content: space-between;
+  align-items: flex-start;
 }
 .socials{
   display:block;
